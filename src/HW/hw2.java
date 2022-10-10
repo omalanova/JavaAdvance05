@@ -37,5 +37,10 @@ public class hw2 {
         } else {
             System.out.println("значение переменной меньше 5 или больше 40");
         }
+
+        //task4
+        for (int i = 0; i <= 15; i++) {
+            System.out.println(i);
+        }
     }
 }
