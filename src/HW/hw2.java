@@ -42,5 +42,10 @@ public class hw2 {
         for (int i = 0; i <= 15; i++) {
             System.out.println(i);
         }
+
+        //task5
+        for (int i = 5; i < 10000; i *= 5) {
+            System.out.println(i);
+        }
     }
 }
