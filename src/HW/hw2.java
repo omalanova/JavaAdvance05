@@ -20,5 +20,22 @@ public class hw2 {
         } else {
             System.out.println("some variable is odd");
         }
+
+        //task3
+        int d = 12;
+        if (d > 10) {
+            System.out.println("больше 10");
+        }
+        if (d < 100) {
+            System.out.println("меньше 100");
+        }
+        if (d / 2 > 20) {
+            System.out.println("результат деления на 2 больше 20");
+        }
+        if ((d >= 5) && (d <= 40)) {
+            System.out.println("значение переменной между 5 и 40 включительно");
+        } else {
+            System.out.println("значение переменной меньше 5 или больше 40");
+        }
     }
 }
