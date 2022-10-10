@@ -2,11 +2,13 @@ package HW;
 
 public class hw1 {
     public static void main(String[] args) {
+        //task1
         System.out.println("3");
         System.out.println("2");
         System.out.println("1");
         System.out.println("Поехали!!!");
 
+        //extra task
         System.out.println("____888888______________________________\n" +
                 "____888888______________________________\n" +
                 "___8888888888___________________________\n" +
@@ -38,7 +40,23 @@ public class hw1 {
                 "____88888888_____1___88888888___________\n" +
                 "_____888888___________888888____________\n" +
                 "_______________________8888_____________\n");
-
-
+        //task2
+        int a = 10;
+        int b = 20;
+        System.out.println("a + b = " + (a + b));
+        System.out.println("a - b = " + (a - b));
+        System.out.println("a * b = " + (a * b));
+        System.out.println("a / b = " + (a / b));
+        System.out.println("a % b = " + (a % b));
+        if (a % 2 == 0) {
+            System.out.println(a + " is even");
+        } else {
+            System.out.println(a + " is odd");
+        }
+        if (b % 2 == 0) {
+            System.out.println(b + " is even");
+        } else {
+            System.out.println(b + " is odd");
+        }
     }
 }
