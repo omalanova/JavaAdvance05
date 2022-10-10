@@ -47,5 +47,17 @@ public class hw2 {
         for (int i = 5; i < 10000; i *= 5) {
             System.out.println(i);
         }
+
+        //task6 example 1
+        for (int i = 40; i < 60; i += 4) {
+            System.out.println(i);
+        }
+
+        //task6 example 2
+        for (int i = 40; i < 60; i++) {
+            if (i % 4 == 0) {
+                System.out.println(i);
+            }
+        }
     }
 }
