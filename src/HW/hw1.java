@@ -58,5 +58,10 @@ public class hw1 {
         } else {
             System.out.println(b + " is odd");
         }
+
+        //extra task2
+
+        System.out.println("\u263a");
+        System.out.println("\u263b");
     }
 }
