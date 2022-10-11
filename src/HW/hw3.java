@@ -115,5 +115,23 @@ int[][] array = {{1, 2, 3, 4, 5}, {6, 7, 8, 9}, {-1, -2, -3, -4}, {-5, -6}};
         }
         System.out.println("count = " + count);
 
+        /*
+        Extra Задача №1
+Написать программу что выводит на печать круг картинкой. Любыми символами.
+Круг может быть овальный, пустой внутри или наполненный символами.
+При написании программы можно использовать любые доступные знания.
+         */
+        System.out.println("     00     ");
+        System.out.println("    0  0    ");
+        System.out.println("   0    0   ");
+        System.out.println("  0      0  ");
+        System.out.println(" 0        0 ");
+        System.out.println("0          0");
+        System.out.println(" 0        0 ");
+        System.out.println("  0      0  ");
+        System.out.println("   0    0   ");
+        System.out.println("    0  0    ");
+        System.out.println("     00     ");
+
     }
 }
