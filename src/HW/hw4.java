@@ -78,5 +78,38 @@ public class hw4 {
             }
             System.out.println();
         }
+
+        /*
+        Задача №4
+
+Необходимо написать 4 метода:
+сложение 2х чисел
+вычитание 2х чисел
+умножение 2х чисел
+деление 2х чисел
+
+         */
+
+        sum2(2,5);
+        sub2(2, 5);
+        mul2(2, 5);
+        div2(2, 5);
+
+    }
+    public static void sum2(int a, int b) {
+        System.out.println(a + b);
+    }
+    public static void sub2(int a, int b) {
+        System.out.println(a - b);
+    }
+    public static void mul2(int a, int b) {
+        System.out.println(a * b);
+    }
+    public static void div2(int a, int b) {
+        if (b == 0) {
+            System.out.println("No");
+        } else {
+            System.out.println(a / b);
+        }
     }
 }
